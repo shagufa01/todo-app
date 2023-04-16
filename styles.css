@@ -22,15 +22,17 @@ p {
    width: max-content;
    margin: 0 auto;
    margin-bottom: 10px;
+   font-size: 20px;
 }
 
-p:hover {
+/* p:hover {
     background-color: white;  
-}
+
+} */
 
 h1 {
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .input-button {
@@ -44,7 +46,7 @@ h1 {
     padding-left: 20px;
 }
 
-button {
+#mainButton {
     width: 40px;
     height: 28px;
     vertical-align: middle;
@@ -53,4 +55,41 @@ button {
     font-size: 20px;
     cursor: pointer;
     color: white;
+}
+
+.deleteButton {
+    width: 30px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+}
+
+.completeButton {
+    width: 30px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.editButton {
+    width: 30px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
 }
